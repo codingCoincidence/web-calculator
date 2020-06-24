@@ -22,32 +22,34 @@
 
     <div id="outer-form">
         <div id="output-field">
-            <input id="display" type="text" placeholder="">
+            <p id="display">
+
+            </p>
+
         </div>
 
         <div id="keypad">
-            <button id="zero" class="numbers">0</button>
-            <button id="one" class="numbers">1</button>
-            <button id="two" class="numbers">2</button>
-            <button id="three" class="numbers">3</button>
-            <button id="four" class="numbers">4</button>
-            <button id="five" class="numbers">5</button>
-            <button id="six" class="numbers">6</button>
-            <button id="seven" class="numbers">7</button>
-            <button id="eight" class="numbers">8</button>
-            <button id="nine" class="numbers">9</button>
+            <button type="button" id="one" class="numbers" onclick="display(event)">1</button>
+            <button type="button" id="two" class="numbers" onclick="display(event)">2</button>
+            <button type=" button " id="three " class="numbers " onclick="display(event) ">3</button>
+            <button type="button " id="plus " class="operations " onclick="display(event) ">+</button>
+            <button type="button " id="four " class="numbers " onclick="display(event) ">4</button>
+            <button type="button " id="five " class="numbers " onclick="display(event) ">5</button>
+            <button type="button " id="six " class="numbers " onclick="display(event) ">6</button>
+            <button type="button " id="minus " class="operations " onclick="display(event) ">-</button>
+            <button type="button " id="seven " class="numbers " onclick="display(event) ">7</button>
+            <button type="button " id="eight " class="numbers " onclick="display(event) ">8</button>
+            <button type="button " id="nine " class="numbers " onclick="display(event) ">9</button>
+            <button type="button " id="multiply " class="operations " onclick="display(event)">*</button>
+            <button type="button" id="clear" onclick="display(event)">c</button>
+            <button type="button " id="zero " class="numbers " onclick="display(event)">0</button>
+            <button type="button " id="equals " class="operations " onclick="calculate(event)">=</button>
+            <button type="button " id="divide " class="operations " onclick="display(event)">/</button>
 
-            <button id="plus" class="operations">+</button>
-            <button id="minus" class="operations">-</button>
-            <button id="multiply" class="operations">*</button>
-            <button id="divide" class="operations">/</button>
-            <button id="equals" class="operations">=</button>
-
-            <button id="clear">c</button>
         </div>
     </div>
 
-    <skript type="text/javascript" src="calc-function.js"></skript>
+    <script src="calc-functions.js "></script>
 </body>
 
 </html>

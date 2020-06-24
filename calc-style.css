@@ -40,6 +40,10 @@ body {
     border-width: 1px;
     border-radius: 3%;
     box-shadow: 1px -1px 10px #656B6D;
+    text-align: center;
+    overflow-y: scroll;
+    height: 100%px;
+    word-wrap: break-word;
 }
 
 #keypad {
