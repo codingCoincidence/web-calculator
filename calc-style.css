@@ -63,19 +63,19 @@
 
 @media (max-device-width: 1024px) {
     body {
-        background-color: #656B6D;
+        background-color: transparent;
         font-family: 'Source Sans Pro', sans-serif;
     }
     #header {
         color: #F29224;
         text-align: center;
-        font-size: 80px
+        font-size: 70px
     }
     #outer-form {
         background-color: #A0A4A7;
         border-style: solid;
         border-color: #FFFFFF;
-        border-width: 12px;
+        border-width: 2px;
         box-shadow: 1px -1px 30px #F29224;
     }
     #display {
