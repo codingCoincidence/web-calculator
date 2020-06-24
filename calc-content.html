@@ -21,14 +21,16 @@
     </h1>
 
     <div id="outer-form">
-        <div id="output-field">
-            <p id="display">
+        <form id="output-field">
 
-            </p>
+            <textarea value="" id="display" disabled>
+                
+            </textarea>
 
-        </div>
+        </form>
 
         <div id="keypad">
+
             <button type="button" id="one" class="numbers" onclick="display(event)">1</button>
             <button type="button" id="two" class="numbers" onclick="display(event)">2</button>
             <button type=" button " id="three " class="numbers " onclick="display(event) ">3</button>
@@ -41,13 +43,15 @@
             <button type="button " id="eight " class="numbers " onclick="display(event) ">8</button>
             <button type="button " id="nine " class="numbers " onclick="display(event) ">9</button>
             <button type="button " id="multiply " class="operations " onclick="display(event)">*</button>
-            <button type="button" id="clear" onclick="display(event)">c</button>
+            <button form="output-field" type="reset" id="clear">c</button>
             <button type="button " id="zero " class="numbers " onclick="display(event)">0</button>
             <button type="button " id="equals " class="operations " onclick="calculate(event)">=</button>
             <button type="button " id="divide " class="operations " onclick="display(event)">/</button>
 
         </div>
     </div>
+
+
 
     <script src="calc-functions.js "></script>
 </body>
